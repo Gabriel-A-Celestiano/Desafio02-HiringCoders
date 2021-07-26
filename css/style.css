@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.troca-cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.troca-cadastro .titulo {
+    font-size: 28px;
+    padding-bottom: 2%;
+}
+
+.troca-cadastro .btn {
+    padding: 2% 4%;
+    border-radius: 15px;
+    margin-top: 2%;
+    border: none;
+    transition: background-color 1s;
+}
+
+.troca-cadastro .btn:hover {
+    background-color: #66CDAA;
+    
+}
+
+.cadastra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 60%;
+    background-color: #F8F8FF;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cadastra input {
+    width: 100%;
+    padding: 2% 0;
+    margin-bottom: 2%;
+    border: none;
+    border-bottom: 1px solid #66CDAA;
+    outline: none;
+}
+
+.cadastra input:focus {
+    border: 1px solid #66CDAA;
+    border-radius: 15px;
+}
+
+.cadastra .btn-cadastra {
+    padding: 2% 4%;
+    border-radius: 15px;
+    margin-top: 2%;
+    border: none;
+    background-color: #66CDAA;
+    color: #fff;
+    transition: background-color 0.5s;
+    outline: none;
+}
+
+.cadastra .btn-cadastra:hover {
+    background-color: #fff;
+    color: #66CDAA;
+}
+
+/* Transição */
+
+#first-content {
+    display: inherit;
+    background-color: #66CDAA;
+}
+
+#second-content {
+    display: none;
+    background-color: #66CDAA;
+}
