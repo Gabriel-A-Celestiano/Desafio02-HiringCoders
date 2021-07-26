@@ -16,7 +16,7 @@ Criação de um sistema e-commerce para inventário de produtos e dados de clien
  - CSS
  - Javascript
 
-### Funcionalidades do sistema de gestão de cadastros
+### Funcionalidades do sistema de gestão de cadastros:
 #### *Seção de cadastrar clientes:*
 Nessa seção podemos cadastrar o nome, email e endereço do cliente.
 
